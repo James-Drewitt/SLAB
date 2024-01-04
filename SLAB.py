@@ -14,11 +14,12 @@ def Ass(twotheta, mu, L, alpha):
     return calc
 
 # parameters
-t = 1 # thickness in mm
+t = 0.05 # thickness in mm
 
-a = 0.163E-2 # Ga
+a = 310.8E-6  # absorption length in m #Hg
+
+#a = 0.163E-2  # absorption length in m #Ga
 #a = 310.5E-6  # absorption length in m #Pb
-#a = 278.5E-6  # absorption length in m #Hg
 
 # generate range of twotheta angles
 twotheta_values = np.linspace(0.01, 30, 60)
